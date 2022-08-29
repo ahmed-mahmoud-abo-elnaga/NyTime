@@ -1,5 +1,15 @@
 <h1 align="center">NyTimes for Clean Architecture</h1>
 
+<p align="center">
+  <a href="https://developer.android.com/jetpack/androidx/releases/compose"><img alt="JetpackCompose" src="https://img.shields.io/badge/Jetpack%20Compose-1.1.0--beta03-blueviolet"/></a>
+  <a href="https://developer.android.com/reference"><img alt="Platform" src="https://img.shields.io/badge/platform-android-brightgreen.svg"/></a>
+  <a href="https://androidstudio.googleblog.com/2022/05/android-studio-dolphin-beta-1-now.html"><img alt="Android Studio Dolphin" src="https://img.shields.io/badge/AS%20Dolphin-2021.3.1%20Patch%204-9cf.svg"/></a>
+  <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
+</p>
+
+<p align="center">
+The purpose of this project is to consolidate some of the learned insights throughout the years about the <b>Clean Architecture</b> principles and reflect those lessons on Android, taking advantage of the Kotlin programming language features too.
+<br/><br>This project summarises some of the general use cases and demands on a typical production project using: <b>Jetpack Compose</b>, <b>Functional Programming</b>,<b>MVI</b>, <b>Kotlin Coroutines</b> and <b>Kotlin Flows</b></p> 
 Build a simple app to hit the NY Times Most Popular Articles API and show a list of articles, that
 shows details when items on the list are tapped.
 
@@ -38,6 +48,7 @@ shows details when items on the list are tapped.
 
 [9]: https://github.com/pedrovgs/Shot
 
+<img src="/art/demo.gif" align="right" width="32%"/>
 ## Modules :bookmark_tabs:
 
 * **app** - The application module with access to **all the application**
@@ -52,5 +63,26 @@ There are some highlights:
 * Every layer in the architecture has been tested.
 * MockK has been used for mocking | stubbing.
 * `Given | When | Then` code presentation order, in order to give a more structured style.
+
+
+<p align="center">
+<img src="/art/clean_architecture_dark.jpg"/>
+</p>
+
+
+## License :oncoming_police_car:
+    Copyright 2023 Ahmed Abo Elnaga
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 
 
