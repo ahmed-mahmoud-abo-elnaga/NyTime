@@ -64,6 +64,7 @@ There are some highlights:
 * MockK has been used for mocking | stubbing.
 * `Given | When | Then` code presentation order, in order to give a more structured style.
 
+<br /><br /><br /><br />
 ### Clean Architecture 
 <p align="center">
 <img src="/art/clean_architecture_dark.jpg"/>
